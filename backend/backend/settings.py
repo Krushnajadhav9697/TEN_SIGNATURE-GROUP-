@@ -151,7 +151,6 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://ten-signature-group.onrender.com",
 ]
 
 # For development - allow all origins on localhost
@@ -174,10 +173,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-
-
-EMAIL_HOST_USER = 'krushh45@gmail.com'
-EMAIL_HOST_PASSWORD = 'iavq jftk aacx dnda'
+EMAIL_HOST_USER = 'negisamay6@gmail.com'
+EMAIL_HOST_PASSWORD = 'izyq xkyj kszq eiep'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
