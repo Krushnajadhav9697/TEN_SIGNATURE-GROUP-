@@ -151,6 +151,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://ten-signature-group.onrender.com",
 ]
 
 # For development - allow all origins on localhost
