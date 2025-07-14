@@ -1,12 +1,32 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Django database
+*.sqlite3
 
 # Django file-based cache
 cache/
 
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Static and media files (if collected/generated)
+staticfiles/
+media/
+
+# Scripts or temporary files
 scripts/
 sample_properties.json
 upload_properties.py
 import_blog_data.py
 blog_data.json
+
+# VSCode settings (optional)
+.vscode/
